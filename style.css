@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'MyRedFish';
+  src:  url('fonts/MyRedFish.eot?n7z7ed');
+  src:  url('fonts/MyRedFish.eot?n7z7ed#iefix') format('embedded-opentype'),
+    url('fonts/MyRedFish.ttf?n7z7ed') format('truetype'),
+    url('fonts/MyRedFish.woff?n7z7ed') format('woff'),
+    url('fonts/MyRedFish.svg?n7z7ed#MyRedFish') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'MyRedFish' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-seawave:before {
+  content: "\e903";
+}
+.icon-redfish1:before {
+  content: "\e900";
+}
+.icon-redfish2:before {
+  content: "\e901";
+}
+.icon-redfish3:before {
+  content: "\e902";
+}
